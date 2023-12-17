@@ -8,18 +8,21 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  ld,
+  next,
   tailwind,
   nodejs,
   git,
   figma,
   docker,
-  postgresql,
-  rubyrails,
-  graphql,
+  vite,
+  python,
+  mongodb,
   komikult,
   leaderboard,
+  LUL,
   math,
+  signalx,
   movie,
   nyeusi,
   space,
@@ -27,6 +30,10 @@ import {
   dcc,
   kelhel,
   microverse,
+  personalwebsite,
+  homecook,
+  pwc,
+  hc
 } from '../assets';
 
 export const navLinks = [
@@ -85,8 +92,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Next JS',
+    icon: next,
   },
   {
     name: 'Tailwind CSS',
@@ -97,16 +104,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'Python',
+    icon: python,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'MongoDB',
+    icon: mongodb,
   },
   {
-    name: 'postgresql',
-    icon: postgresql,
+    name: 'Vite',
+    icon: vite,
   },
   {
     name: 'git',
@@ -124,47 +131,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'App Tester',
+    company_name: 'SignalX',
+    icon: signalx,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'January 2022 - August 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'DEI Intern',
+    company_name: 'PWC',
+    icon: pwc,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'May 2023 - July 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Software Testing Intern',
+    company_name: 'LegionellaDossier',
+    icon: ld,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'July 2023 - Oct 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'FrontEnd Developer',
+    company_name: 'HomeCook',
+    icon: homecook,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'June 2023 - Present',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Personal Website',
+    description: 'A personal portfolio website I made to showcase my skills and resume using React.js hosted on Netlify, Node.js for mailing backend hosted on AWS lambda.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'express.js',
         color: 'green-text-gradient',
       },
       {
@@ -172,100 +179,56 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: personalwebsite,
+    repo: 'https://github.com/dsvill06/personal_site',
+    demo: 'https://davidvillavicencio.netlify.app',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Fraternity Website',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'My fraternity website for La Unidad Latina, Lambda Upsilon Lambda Fraternity Inc. that showcases the work we do on campus at the University of North Carolina at Chapel Hill.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'chat-gpt',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: LUL,
+    repo: 'https://github.com/dsvill06/unclulwebsite',
+    demo: 'https://unclul.netlify.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'HomeCook App',
+    description: 'An app developed for the startup HomeCook using React.js, TailwindCSS, Flask, and MongoDb',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'mongodb',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'tailwindcss',
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: hc,
+    repo: 'https://github.com/HomeCookApp',
+    demo: 'https://homecook.space/',
   },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+  
 ];
 
 export { services, technologies, experiences, projects };

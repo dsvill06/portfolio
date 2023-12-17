@@ -1,12 +1,11 @@
 import bwmap from './backgrounds/bw-map.jpeg';
-import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
+import andes from './backgrounds/Andes.jpeg'
 
-import logo from './logo/logo-black.png';
+import logo from './logo/DavidLogo1.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -31,33 +30,39 @@ import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
+import next from './tech/next.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import mongodb from './tech/mongodb.png';
+import vite from './tech/vite.png';
+import python from './tech/python.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import homecook from './company/HomeCook.png'
+import ld from './company/legionelladossier.png'
+import pwc from './company/pwc.png'
+import signalx from './company/signalx.png'
 
 import komikult from './projects/komikult.png';
+import personalwebsite from './projects/personalwebsite.png'
+import LUL from "./projects/LUL.png"
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import hc from './projects/homecook.png'
 
 export {
   bwmap,
-  nairobi,
   whiteabstract,
   worldmap,
   logo,
   logotext,
-  shaq,
+  hc,
   backend,
   ux,
   frontend,
@@ -76,17 +81,21 @@ export {
   docker,
   figma,
   git,
-  graphql,
+  mongodb,
+  andes,
+  pwc,
   html,
+  signalx,
   javascript,
   nodejs,
-  postgresql,
-  rubyrails,
+  vite,
+  python,
   reactjs,
-  redux,
+  next,
   tailwind,
   typescript,
   komikult,
+  homecook,
   leaderboard,
   math,
   movie,
@@ -95,5 +104,8 @@ export {
   coverhunt,
   dcc,
   kelhel,
+  ld,
   microverse,
+  personalwebsite,
+  LUL
 };
