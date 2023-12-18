@@ -9,6 +9,7 @@ import {
   Projects,
   Footer
 } from './components';
+import Fiverr from './components/Fiverr';
 
 const App = () => {
   return (
@@ -26,7 +27,9 @@ const App = () => {
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
         </div>
-
+        <div className="bg-about pb-3">
+         <Fiverr/>
+        </div>
         <Projects />
 
         <div

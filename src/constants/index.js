@@ -23,17 +23,12 @@ import {
   LUL,
   math,
   signalx,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
   personalwebsite,
   homecook,
   pwc,
-  hc
+  hc,
+  fiverr,
+  linkedin
 } from '../assets';
 
 export const navLinks = [
@@ -69,6 +64,20 @@ const services = [
     icon: prototyping,
   },
 ];
+
+const order = [
+  {
+    name: "fiverr",
+    image: fiverr,
+    website: "https://www.fiverr.com/s/m1Zjbz",
+  },
+  {
+    name: "linkedin",
+    image:linkedin,
+    website: "https://www.linkedin.com/in/dsvill06/"
+  },
+ 
+]
 
 const technologies = [
   {
@@ -231,4 +240,4 @@ const projects = [
   
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, order };

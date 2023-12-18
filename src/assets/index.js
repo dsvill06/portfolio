@@ -2,6 +2,8 @@ import bwmap from './backgrounds/bw-map.jpeg';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 import andes from './backgrounds/Andes.jpeg'
+import fiverr from './backgrounds/fiverr1.png'
+import linkedin from './backgrounds/linkedin.png'
 
 import logo from './logo/DavidLogo1.png';
 import logotext from './logo/logo-text-black.png';
@@ -79,6 +81,7 @@ export {
   sendHover,
   css,
   docker,
+  fiverr,
   figma,
   git,
   mongodb,
@@ -100,6 +103,7 @@ export {
   math,
   movie,
   nyeusi,
+  linkedin,
   space,
   coverhunt,
   dcc,
