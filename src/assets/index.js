@@ -62,7 +62,7 @@ import hc from './projects/homecook.png'
 import bb from './projects/betterblueprint.png'
 import bros from './personal/LUL.jpeg'
 import family from './personal/family.jpg'
-import gds from './personal/gds.jpg'
+import gds from './personal/GDS.jpg'
 import bros2 from './personal/bros2.jpg'
 import bros3 from './personal/bros3.jpeg'
 import four from './personal/4.jpeg'
@@ -77,6 +77,7 @@ import dt from './logo/DivTech.png'
 import david from './personal/David.jpg'
 import demo from './Video/ScholarBotVid.mp4'
 import sb from './logo/ScholarBot.png'
+
 export {
   bwmap,
   family,
