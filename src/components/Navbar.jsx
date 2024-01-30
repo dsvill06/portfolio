@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-2 fixed 
+      className={`${styles.paddingX} w-full flex items-center py-2w fixed 
       top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -23,9 +23,8 @@ const Navbar = () => {
           <img
             src={logo} // your logo comes here
             alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+            className="sm:w-[75px] sm:h-[75px] w-[100px] h-[100px] object-contain"
           />
-          <h1 className='text-black text-4xl font-mova'>David</h1>
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
           
@@ -36,10 +35,10 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? 'text-french' : 'text-eerieBlack'
-              } hover:text-taupe text-[21px] font-medium font-mova 
-                uppercase tracking-[3px] cursor-pointer nav-links`}
+              } hover:text-taupe text-[19px] font-medium font-mova 
+                uppercase tracking-[3px] cursor-pointer nav-links `}
               onClick={() => setActive(nav.title)}>
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={nav.id === 'company' || nav.id === 'blog' ? `/${nav.id}` : `/#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
@@ -75,7 +74,7 @@ const Navbar = () => {
                       setToggle(!toggle);
                       setActive(nav.title);
                     }}>
-                    <a href={`#${nav.id}`}>{nav.title}</a>
+                    <a href={nav.id === 'company' || nav.id === 'blog' ? `/${nav.id}` : `/#${nav.id}`}>{nav.title}</a>
                   </li>
                 ))}
               </ul>

@@ -3,11 +3,12 @@ import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 import andes from './backgrounds/Andes.jpeg'
 import fiverr from './backgrounds/fiverr1.png'
-import linkedin from './backgrounds/linkedin.png'
+import linkedin from './personal/linkedin.png'
 
-import logo from './logo/DavidLogo1.png';
+import logo from './logo/logo.png';
 import logotext from './logo/logo-text-black.png';
 
+import audio from './audio/audio.mp3'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -48,6 +49,7 @@ import ld from './company/legionelladossier.png'
 import pwc from './company/pwc.png'
 import signalx from './company/signalx.png'
 
+
 import komikult from './projects/komikult.png';
 import personalwebsite from './projects/personalwebsite.png'
 import LUL from "./projects/LUL.png"
@@ -57,12 +59,44 @@ import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 import hc from './projects/homecook.png'
-
+import bb from './projects/betterblueprint.png'
+import bros from './personal/LUL.jpeg'
+import family from './personal/family.jpg'
+import gds from './personal/gds.jpg'
+import bros2 from './personal/bros2.jpg'
+import bros3 from './personal/bros3.jpeg'
+import four from './personal/4.jpeg'
+import cover from './personal/Cover.png'
+import article from './personal/Article.png'
+import line from './personal/Line.jpeg'
+import friends from './personal/Friends.jpg'
+import summit from './personal/summit.jpg'
+import wedding from './personal/Wedding.jpeg'
+import qc from './personal/QC.png'
+import dt from './logo/DivTech.png'
+import david from './personal/David.jpg'
+import demo from './Video/ScholarBotVid.mp4'
+import sb from './logo/ScholarBot.png'
 export {
   bwmap,
+  family,
+  dt,
+  david,
+  gds,
+  demo,
+  bros2,
+  sb,
+  bros3,
   whiteabstract,
   worldmap,
+  audio,
   logo,
+  bros,
+  four,
+  summit,
+  wedding,
+  line,
+  friends,
   logotext,
   hc,
   backend,
@@ -82,6 +116,7 @@ export {
   css,
   docker,
   fiverr,
+  qc,
   figma,
   git,
   mongodb,
@@ -111,5 +146,8 @@ export {
   ld,
   microverse,
   personalwebsite,
+  article,
+  cover,
+  bb,
   LUL
 };

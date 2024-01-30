@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Router, Route, Routes} from 'react-router-dom';
 import {
   About,
   Contact,
@@ -10,41 +10,20 @@ import {
   Footer
 } from './components';
 import Fiverr from './components/Fiverr';
+import BlogPage from './pages/BlogPage';
+import CompanyPage from './pages/CompanyPage';
+
+import Homepage from './pages/Homepage';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0">
-        <div>
-          <Navbar />
-          <Hero />
-        </div>
-
-        <div className="bg-about bg-cover bg-center bg-no-repeat">
-          <About />
-        </div>
-
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
-          <Tech />
-        </div>
-        <div className="bg-about pb-3">
-         <Fiverr/>
-        </div>
-        <Projects />
-
-        <div
-          className="bg-experience bg-cover bg-center bg-no-repeat 
-            rounded-tl-[150px] rounded-br-[150px]">
-          <div
-            className="bg-experienceLight bg-cover bg-center 
-            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
-            <Experience />
-          </div>
-        </div>
-        <div className="relative z-0">
-          <Contact />
-        </div>
-      </div>
+     <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Homepage/>}/>
+        <Route exact path="/company" element={<CompanyPage/>}/>
+        <Route exact path="/blog" element={<BlogPage/>}/>
+      </Routes>
       <Footer/>
     </BrowserRouter>
   );

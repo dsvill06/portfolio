@@ -28,7 +28,18 @@ import {
   pwc,
   hc,
   fiverr,
-  linkedin
+  linkedin,
+  bb,
+  four, 
+  bros,
+  line,
+  friends,
+  family,
+  bros2,
+  gds,
+  bros3,
+  wedding,
+  summit
 } from '../assets';
 
 export const navLinks = [
@@ -44,6 +55,14 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
+  // {
+  //   id: 'blog',
+  //   title: 'Blog',
+  // },
+  {
+    id: 'company',
+    title: '<DivTech>',
+  }
 ];
 
 const services = [
@@ -70,11 +89,6 @@ const order = [
     name: "fiverr",
     image: fiverr,
     website: "https://www.fiverr.com/s/m1Zjbz",
-  },
-  {
-    name: "linkedin",
-    image:linkedin,
-    website: "https://www.linkedin.com/in/dsvill06/"
   },
  
 ]
@@ -221,7 +235,7 @@ const projects = [
     description: 'An app developed for the startup HomeCook using React.js, TailwindCSS, Flask, and MongoDb',
     tags: [
       {
-        name: 'nextjs',
+        name: 'reactJs',
         color: 'blue-text-gradient',
       },
       {
@@ -237,7 +251,77 @@ const projects = [
     repo: 'https://github.com/HomeCookApp',
     demo: 'https://homecook.space/',
   },
-  
+  {
+    id: 'project-4',
+    name: 'Client Website',
+    description: 'A website for BetterBlueprint Consulting that I designed and developed to provided a modern approach to online prescence',
+    tags: [
+      {
+        name: 'reactJs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'framer-motion',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwindcss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: bb,
+    repo: 'https://github.com/dsvill06/betterblueprint',
+    demo: 'https://betterblueprintconsulting.netlify.app/',
+  },
 ];
 
-export { services, technologies, experiences, projects, order };
+const cards = [
+  {
+    url: bros,
+    title: "Frat",
+    id: 1,
+  },
+  {
+    url: four,
+    title: "Title 2",
+    id: 2,
+  },
+  {
+    url: family,
+    title: "Title 3",
+    id: 3,
+  },
+  {
+    url: bros2,
+    title: "Title 4",
+    id: 4,
+  },
+  {
+    url: gds,
+    title: "Title 5",
+    id: 5,
+  },
+  {
+    url: bros3,
+    title: "Title 6",
+    id: 6,
+  },
+  {
+    url: line,
+    title: "Title 7",
+    id: 7,
+  },
+  {
+    url: wedding,
+    title: "Title 7",
+    id: 7,
+  },
+  {
+    url: summit,
+    title: "Title 7",
+    id: 7,
+  },
+];
+
+
+export { services, technologies, experiences, projects, order, cards };

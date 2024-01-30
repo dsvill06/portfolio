@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { linkedin } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -52,6 +53,20 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+      {/* <div className="mt-20 font-poppins">
+        <div className="flex flex-col md:flex-row gap-16 justify-between">
+        <motion.img
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+          src={linkedin}
+          alt={'linkedin'}
+          className="w-full  md:w-8/12 h-max object-cover rounded-[24px] shadow-card"
+        />
+        <motion.div className="flex flex-row  " variants={textVariant()} >
+          <h1 className="text-5xl font-bold text-eerieBlack w-full md:mr-20">Linkedin</h1>
+        </motion.div>
+        </div>
+      </div> */}
     </div>
   );
 };

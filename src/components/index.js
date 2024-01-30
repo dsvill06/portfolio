@@ -7,5 +7,8 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer'
-
-export { Hero, Navbar, About, Tech, Experience, Projects, Contact, Footer, BallCanvas };
+import Origin from './Origin';
+import CompanyAbout from './CompanyAbout';
+import CompanyHero from './CompanyHero';
+import ScholarBot from './ScholarBot';
+export { Hero, Navbar, About, Tech,Origin,CompanyHero, ScholarBot, CompanyAbout,Experience, Projects, Contact, Footer, BallCanvas };

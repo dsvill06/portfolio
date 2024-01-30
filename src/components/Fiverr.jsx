@@ -10,7 +10,7 @@ const ServiceCard = ({index, website, image, name}) => {
     return (
       <motion.div
         variants={fadeIn("right", "spring", .5 * index, 0.75)}
-        className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
+        className="xs:w-[400px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >   
@@ -36,7 +36,7 @@ const Fiverr = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        You may also send me a message on linkedin if you are interested in my work!
+        See my gigs through fiverr or feel free to contact me at the bottom of my page!
       </motion.p>
       <div className="mt-5 flex flex-wrap gap-10">
         {order.map((order, index) => (<div className="flex flex-wrap mt-14 ">

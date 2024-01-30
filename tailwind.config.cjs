@@ -27,6 +27,10 @@ export default {
         richBlack: '#2e2e2e',
         eerieBlack: '#1f1f1f',
         onyx: '#5b5b5b',
+        gunmetal: "#1C3738",
+        davysGray: "#4D4847",
+        mintCream: "#F4FFF8",
+        cadetGray: "#016ab3"
       },
       boxShadow: {
         card: '0px 35px 120px -15px #1f1f1f',
