@@ -11,13 +11,13 @@ const CompanyAbout = () => {
           Develop 
           <span className=" text-gunmetal"> your online presence</span>
         </h2>
-        <motion.button
+        {/* <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="whitespace-nowrap rounded-lg bg-eerieBlack  px-4 py-2 font-medium text-white shadow-xl transition-colors hover:bg-richBlack"
         >
           Learn more
-        </motion.button>
+        </motion.button> */}
       </motion.div>
       <div className="mb-4 grid grid-cols-12 gap-4">
         <BounceCard className="col-span-12 md:col-span-4">

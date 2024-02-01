@@ -4,31 +4,8 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { article, cover, linkedin, qc } from "../assets";
+import { about, article, banner, cover, linkedin, qc } from "../assets";
 import Pictures from "./Pictures";
-
-const ServiceCard = ({ index, title, icon }) => {
-  return (
-    <motion.div
-      variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
-    >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-      >
-        <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-        <h3 className="text-taupe text-[18px] font-bold text-center">
-          {title}
-        </h3>
-      </div>
-    </motion.div>
-  );
-};
 
 const About = () => {
   return (
@@ -85,7 +62,29 @@ const About = () => {
               alt={"infographic"}
               className="w-full object-fill object-left-top shadow-card place-content-end col-start-2 row-start-1 sca"
             />
+          <div className=" col-span-2 grid grid-flow-col h-full">
+           <a href="">
+             <img src={banner} className="object-cover  "/>
+           </a>
+            <img src={about} className=" object-cover"/>
+          </div>
         </div> 
+        
+        {/* <button
+      className={`
+        px-4 py-2 rounded-full 
+        flex items-center gap-2 
+        text-slate-500
+        shadow-[-5px_-5px_10px_rgba(255,_255,_255,_0.8),_5px_5px_10px_rgba(0,_0,_0,_0.25)]
+        
+        transition-all
+
+        hover:shadow-[-1px_-1px_5px_rgba(255,_255,_255,_0.6),_1px_1px_5px_rgba(0,_0,_0,_0.3),inset_-2px_-2px_5px_rgba(255,_255,_255,_1),inset_2px_2px_4px_rgba(0,_0,_0,_0.3)]
+        hover:text-violet-500
+    `}
+    >
+      <span>Hover Me</span>
+    </button> */}
       </div>
     </div>
   );

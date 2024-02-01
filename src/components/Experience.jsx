@@ -9,6 +9,7 @@ import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
+import { education } from '../constants';
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
@@ -54,15 +55,32 @@ const ExperienceCard = ({ experience }) => (
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+     <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
           What I've done so far
         </p>
+        
+      </motion.div>
+      <motion.div variants={textVariant()}>
+        <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
+         Education.
+        </h2>
+      </motion.div>
+      <div className="mt-20 flex flex-col">
+        <VerticalTimeline className="vertical-timeline-custom-line">
+          {education.map((experience, index) => (
+            <ExperienceCard key={index} experience={experience} />
+          ))}
+         
+        </VerticalTimeline>
+      </div>
+      <motion.div variants={textVariant()}>
+       
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
           Work Experience.
         </h2>
       </motion.div>
-
+      
       <div className="mt-20 flex flex-col">
         <VerticalTimeline className="vertical-timeline-custom-line">
           {experiences.map((experience, index) => (

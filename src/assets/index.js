@@ -70,21 +70,25 @@ import cover from './personal/Cover.png'
 import article from './personal/Article.png'
 import line from './personal/Line.jpeg'
 import friends from './personal/Friends.jpg'
+import banner from './personal/Banner.png'
+import about from './personal/About.png'
 import summit from './personal/summit.jpg'
 import wedding from './personal/Wedding.jpeg'
 import qc from './personal/QC.png'
 import dt from './logo/DivTech.png'
 import david from './personal/David.jpg'
-import demo from './Video/ScholarBotVid.mp4'
+import demovid from './Video/ScholarBotVid.mp4'
 import sb from './logo/ScholarBot.png'
+import unc from './logo/unc.png'
 
 export {
   bwmap,
+  unc,
   family,
   dt,
   david,
   gds,
-  demo,
+  demovid,
   bros2,
   sb,
   bros3,
@@ -142,6 +146,8 @@ export {
   linkedin,
   space,
   coverhunt,
+  banner,
+  about,
   dcc,
   kelhel,
   ld,

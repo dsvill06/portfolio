@@ -32,13 +32,14 @@ const Origin = () => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/tyg5w3qe1SU?si=pIxqOD3T_uI-2WMC"
+            src="https://www.youtube.com/embed/QU5XWkI8V3U?si=T-MhPT0fc210jwZ7"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
             className="w-auto md:w-[650px] h-[400px] border-2 border-eerieBlack shadow-card"
           ></iframe>
+          
         </div>
         <div className=" w-full md:w-7/12 shadow-card bg-eerieBlack">
           <AudioPlayer

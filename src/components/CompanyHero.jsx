@@ -11,7 +11,7 @@ const CompanyHero = () => {
     <>
       <section
         className="relative flex lg:flex-row flex-col w-full h-screen mx-auto 
-         bg-night overflow-hidden gap-96"
+         bg-black overflow-hidden gap-96"
       >
         <motion.div  variants={textVariant()}>
             <div

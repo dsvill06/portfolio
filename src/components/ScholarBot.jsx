@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { bwmap, demo, sb, worldmap } from "../assets";
+import { bwmap, sb, worldmap } from "../assets";
 import TypewriterComponent from "typewriter-effect";
 import FloatingPhone from "./Phone";
 import { SectionWrapper } from "../hoc";
@@ -12,7 +12,7 @@ const ScholarBot = () => {
     <>
       <section
         className=" selection:flex flex-col w-full h-auto mx-auto 
-         bg-night "
+         bg-black "
       >
         <div>
           <motion.div variants={textVariant()}
@@ -50,7 +50,7 @@ const ScholarBot = () => {
              <source src={demo} type="video/mp4" />
            </video>
          </div> */}
-         <motion.img variants={fadeIn()} initial={{opacity:0}} animate={{opacity:2}} transition={{delay:5}}
+         <motion.img variants={fadeIn()}  initial={{opacity:0}} animate={{opacity:2}} transition={{delay:5}}
             src={sb} alt="ScholarBot" className="text-flashWhite self-center"/>
        </div>
       </section>

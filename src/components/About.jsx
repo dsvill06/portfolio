@@ -41,11 +41,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        Hi there! My name is David Villavicencio, and I am currently pursuing a
-        degree in Computer Science at the University of North Carolina at Chapel
-        Hill. Alongside my studies, I am also passionate about Entrepreneurship
-        and Engineering, which I am minoring in. I am originally from Ecuador, but I also
-        take great pride in my Colombian heritage on my Mom's side. Below are some skills I pride myself on.
+        My name is David Villavicencio, and I am currently pursuing a degree in
+        Computer Science at the University of North Carolina at Chapel Hill.
+        Alongside my studies, I am also passionate about Entrepreneurship and
+        Engineering, which I am minoring in. I am originally from Ecuador, but I
+        also take great pride in my Colombian heritage on my Mom's side. Through
+        my experiences as a first-generation immigrant facing various barriers
+        in accessing education, healthcare, and job opportunities I plan to use
+        my education and skills to promote the development of minority
+        communities within the United States. Below are some skills I pride
+        myself on.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
