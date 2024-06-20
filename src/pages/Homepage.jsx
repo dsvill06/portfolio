@@ -13,6 +13,7 @@ import {
 import Fiverr from '../components/Fiverr';
 import MoreAbout from '../components/MoreAbout';
 import Pictures from '../components/Pictures';
+import PricingCards from '../components/PricingCards';
 
 
 const Homepage = () => {
@@ -29,8 +30,8 @@ const Homepage = () => {
         </div>
         </div>
         <div className=''>
-          <MoreAbout/>
-          <Pictures/>
+          {/* <MoreAbout/> */}
+          <PricingCards/>
           <div
           className="bg-experience bg-cover bg-center bg-no-repeat 
             rounded-tl-[150px] rounded-br-[150px]">
