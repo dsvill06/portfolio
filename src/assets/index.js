@@ -80,12 +80,16 @@ import david from './personal/David.jpg'
 import demovid from './Video/ScholarBotVid.mp4'
 import sb from './logo/ScholarBot.png'
 import unc from './logo/unc.png'
+import tito from './projects/tito.png'
+import dk from './projects/dk.png'
 
 export {
   bwmap,
+  dk,
   unc,
   family,
   dt,
+  tito,
   david,
   gds,
   demovid,

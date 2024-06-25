@@ -41,6 +41,8 @@ import {
   wedding,
   summit,
   unc,
+  tito,
+  dk,
 } from "../assets";
 
 export const navLinks = [
@@ -60,10 +62,10 @@ export const navLinks = [
   //   id: 'blog',
   //   title: 'Blog',
   // },
-  {
-    id: "company",
-    title: "<DivTech>",
-  },
+  // {
+  //   id: "company",
+  //   title: "<DivTech>",
+  // },
 ];
 
 const services = [
@@ -193,29 +195,6 @@ const education = [
 ]
 const projects = [
   {
-    id: "project-1",
-    name: "Personal Website",
-    description:
-      "A personal portfolio website I made to showcase my skills and resume using React.js hosted on Netlify, Node.js for mailing backend hosted on AWS lambda.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: personalwebsite,
-    repo: "https://github.com/dsvill06/personal_site",
-    demo: "https://davidvillavicencio.netlify.app",
-  },
-  {
     id: "project-2",
     name: "Fraternity Website",
     description:
@@ -263,7 +242,7 @@ const projects = [
   },
   {
     id: "project-4",
-    name: "Client Website",
+    name: "BetterBlueprint",
     description:
       "A website for BetterBlueprint Consulting that I designed and developed to provided a modern approach to online prescence",
     tags: [
@@ -283,6 +262,52 @@ const projects = [
     image: bb,
     repo: "https://github.com/dsvill06/betterblueprint",
     demo: "https://betterblueprintconsulting.netlify.app/",
+  },
+  {
+    id: "project-5",
+    name: "TitoCutzzit",
+    description:
+      "A website for a local barber that I designed and developed to provided a modern approach to online prescence",
+    tags: [
+      {
+        name: "nextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tito,
+    // repo: "https://github.com/dsvill06/betterblueprint",
+    demo: "https://tito-cutzzit.vercel.app/",
+  },
+  {
+    id: "project-6",
+    name: "DariusKing",
+    description:
+      "A website for an up and coming artist that I designed and developed to showcase his social networks",
+    tags: [
+      {
+        name: "nextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dk,
+    // repo: "https://github.com/dsvill06/betterblueprint",
+    demo: "https://tito-cutzzit.vercel.app/",
   },
 ];
 

@@ -18,8 +18,8 @@ const PricingCards = () => {
     {
       image: "https://i.imgur.com/Hg0sUJP.png",
       title: "Premium",
-      price: "$500",
-      features: ["Fully Customized Website", "7+ Pages and Subpages", "SEO Optimization"],
+      price: "$500+",
+      features: ["Fully Customized Website", "7+ Pages and Subpages", "Higher Functionality(Blog, E-commerce)"],
     },
   ];
   return (
