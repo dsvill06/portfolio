@@ -35,11 +35,11 @@ const Homepage = () => {
           <div
           className="bg-experience bg-cover bg-center bg-no-repeat 
             rounded-tl-[150px] rounded-br-[150px]">
-          <div
+          {/* <div
             className="bg-experienceLight bg-cover bg-center 
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
             <Origin />
-          </div>
+          </div> */}
         </div>
          
 
