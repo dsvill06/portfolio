@@ -19,6 +19,7 @@ import {
   python,
   mongodb,
   komikult,
+  marketwire,
   leaderboard,
   LUL,
   math,
@@ -283,21 +284,44 @@ const projects = [
       },
     ],
     image: tito,
-    // repo: "https://github.com/dsvill06/betterblueprint",
+    // repo: "https://github.com/dsvill06/marketwire",
     demo: "https://tito-cutzzit.vercel.app/",
   },
+  // {
+  //   id: "project-6",
+  //   name: "DariusKing",
+  //   description:
+  //     "A website for an up and coming artist that I designed and developed to showcase his social networks",
+  //   tags: [
+  //     {
+  //       name: "nextJs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "framer-motion",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: dk,
+  //   // repo: "https://github.com/dsvill06/betterblueprint",
+  //   demo: "https://www.dariusking.com/",
+  // },
   {
     id: "project-6",
-    name: "DariusKing",
+    name: "MarketWire",
     description:
-      "A website for an up and coming artist that I designed and developed to showcase his social networks",
+      "The Warren Buffet Way of Investing, Now at Your Fingertips: Elevate Your Investment Journey with MarketWire! ",
     tags: [
       {
         name: "nextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "framer-motion",
+        name: "flask",
         color: "green-text-gradient",
       },
       {
@@ -305,9 +329,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: dk,
-    // repo: "https://github.com/dsvill06/betterblueprint",
-    demo: "https://tito-cutzzit.vercel.app/",
+    image: marketwire,
+    repo: "https://github.com/dsvill06/marketwire",
+    demo: "https://marketwire.live/",
   },
 ];
 

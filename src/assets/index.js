@@ -59,6 +59,7 @@ import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 import hc from './projects/homecook.png'
+import marketwire from './projects/marketwire.png'
 import bb from './projects/betterblueprint.png'
 import bros from './personal/LUL.jpeg'
 import family from './personal/family.jpg'
@@ -150,6 +151,7 @@ export {
   linkedin,
   space,
   coverhunt,
+  marketwire,
   banner,
   about,
   dcc,
