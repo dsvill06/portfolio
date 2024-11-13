@@ -6,19 +6,19 @@ const PricingCards = () => {
     {
       image: "https://i.imgur.com/Ql4jRdB.png",
       title: "Basic",
-      price: "$150",
+      price: "$250",
       features: ["One-Page Site", "Contact Form Functionality", "Add Custom Media"],
     },
     {
       image: "https://i.imgur.com/pJNFEHR.png",
       title: "Standard",
-      price: "$250",
+      price: "$400",
       features: ["Multiple Page Website", "Smooth Page Navigation", "Up to 5 Pages"],
     },
     {
       image: "https://i.imgur.com/Hg0sUJP.png",
       title: "Premium",
-      price: "$500+",
+      price: "$600+",
       features: ["Fully Customized Website", "7+ Pages and Subpages", "Higher Functionality(Blog, E-commerce)"],
     },
   ];
