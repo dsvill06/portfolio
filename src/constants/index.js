@@ -44,6 +44,7 @@ import {
   unc,
   tito,
   dk,
+  interfood,
 } from "../assets";
 
 export const navLinks = [
@@ -178,7 +179,7 @@ const experiences = [
     date: "July 2023 - Oct 2023",
   },
   {
-    title: "FrontEnd Developer",
+    title: "Lead Front-End Developer",
     company_name: "HomeCook",
     icon: homecook,
     iconBg: "#333333",
@@ -188,7 +189,7 @@ const experiences = [
 const education = [
   {
     title: "University of North Carolina at Chapel Hill",
-    company_name: "Bachelor of Science in Computer Science with minors in Entrepreneurship and Applied Sciences and Engineering Minor",
+    company_name: "Bachelor of Science in Computer Science with minors in Entrepreneurship and Applied Sciences & Engineering",
     icon: unc,
     iconBg: "#333333",
     date: "August 2022 - May 2026",
@@ -197,26 +198,26 @@ const education = [
 const projects = [
   {
     id: "project-2",
-    name: "Fraternity Website",
+    name: "Interfood Tres Hermanos Website",
     description:
-      "My fraternity website for La Unidad Latina, Lambda Upsilon Lambda Fraternity Inc. that showcases the work we do on campus at the University of North Carolina at Chapel Hill.",
+      "A website for the Interfood Tres Hermanos restaurant that I designed and developed to provide a modern approach to online prescence",
     tags: [
       {
-        name: "react",
+        name: "nextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "chat-gpt",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "framer-motion",
         color: "pink-text-gradient",
       },
     ],
-    image: LUL,
-    repo: "https://github.com/dsvill06/unclulwebsite",
-    demo: "https://unclul.netlify.app/",
+    image: interfood,
+    repo: "https://github.com/dsvill06/three-brothers",
+    demo: "https://www.interfoodtreshermanos.com/",
   },
   {
     id: "project-3",
@@ -243,26 +244,25 @@ const projects = [
   },
   {
     id: "project-4",
-    name: "BetterBlueprint",
+    name: "KeyBridge",
     description:
-      "A website for BetterBlueprint Consulting that I designed and developed to provided a modern approach to online prescence",
+      "KeyBridge is a real estate platform designed to help agents and investors centralize property data, manage leads, and streamline client communication in one place. It bridges fragmented real estate workflows by combining lead tracking, property insights, and organized client information into a clean, intuitive dashboard.",
     tags: [
       {
-        name: "reactJs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "green-text-gradient",
+        name: "nextJs",
+        color: "black-text-gradient",
       },
       {
         name: "tailwindcss",
         color: "pink-text-gradient",
       },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
     ],
-    image: bb,
-    repo: "https://github.com/dsvill06/betterblueprint",
-    demo: "https://betterblueprintconsulting.netlify.app/",
+    image: keybridge,
+    demo: "https://keybridge-phi.vercel.app/",
   },
   {
     id: "project-5",

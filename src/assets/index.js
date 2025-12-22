@@ -83,9 +83,13 @@ import sb from './logo/ScholarBot.png'
 import unc from './logo/unc.png'
 import tito from './projects/tito.png'
 import dk from './projects/dk.png'
+import interfood from './projects/interfood.png'
+import keybridge from './projects/keybridge.png'
 
 export {
   bwmap,
+  interfood,
+  keybridge,
   dk,
   unc,
   family,
